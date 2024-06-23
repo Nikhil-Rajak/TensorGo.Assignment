@@ -1,17 +1,15 @@
-## Invoice Reminder Web Application
-
-### Overview
+# Invoice Reminder Web Application
 
 The Invoice Reminder Web Application is designed to help users manage their due invoices efficiently. It includes features for viewing, managing, and sending automated reminders for unpaid invoices. The application consists of a frontend built with React and a backend powered by Node.js and Express, connected to a MongoDB database.
 
-### Features
+## Features
 
 - **User Authentication**: Login with Google
 - **Invoice Management**: View a list of due invoices
 - **Automated Reminders**: Trigger automated reminders for due invoices
 - **Responsive Design**: Ensures usability across different devices and screen sizes
 
-### Tech Stack
+## Tech Stack
 
 - **Frontend**: React, Axios, React Router
 - **Backend**: Node.js, Express
@@ -19,7 +17,7 @@ The Invoice Reminder Web Application is designed to help users manage their due 
 - **Authentication**: Passport.js
 - **Styling**: CSS with responsive design principles
 
-### Project Structure
+## Project Structure
 
 ```
 invoice-reminder/
@@ -54,7 +52,7 @@ invoice-reminder/
 └── package.json
 ```
 
-### Backend
+## Backend
 
 - **server.js**: Main server file to configure and run the Express server.
 - **config/passport.js**: Configuration for Passport.js authentication.
@@ -62,7 +60,7 @@ invoice-reminder/
 - **routes/auth.js**: Routes for user authentication.
 - **routes/invoices.js**: Routes for managing invoices.
 
-### Frontend
+## Frontend
 
 - **components/Home.js**: Home page with links to login and view invoices.
 - **components/DueInvoices.js**: Page displaying the list of due invoices with trigger automation buttons.
@@ -75,11 +73,11 @@ invoice-reminder/
 - **App.js**: Main React component that sets up routing.
 - **index.js**: Entry point for the React application.
 
-### Installation and Setup
+## Installation and Setup
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/your-username/invoice-reminder.git
+   git clone https://github.com/Nikhil-Rajak/TensorGo.Assignment.git
    ```
 
 2. **Backend Setup**:
@@ -125,16 +123,18 @@ invoice-reminder/
    - Open your browser and navigate to `http://localhost:3001` to view the frontend.
    - Ensure the backend server is running on `http://localhost:5000`.
 
-### Usage
+## Usage
 
 - **Login**: Use the "Login with Google" button to authenticate.
 - **View Invoices**: Navigate to the "View Invoices" page to see a list of due invoices.
 - **Trigger Automation**: Click the "Trigger Automation" button next to an invoice to send a reminder.
 
-### Contributing
+## Contributing
 
 - Fork the repository.
 - Create a new branch (`git checkout -b feature-branch`).
 - Make your changes and commit them (`git commit -m 'Add new feature'`).
 - Push to the branch (`git push origin feature-branch`).
 - Open a Pull Request.
+
+---
